@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Console extends QuestionsAns{
     Scanner scan = new Scanner(System.in);
     private final int ERRORS = 6;
-    private final int TOTAL_QUESTION = 2;
+    private final int TOTAL_QUESTION = questions.size();
     public void play(){
         Random random = new Random();
         int questionIndex = random.nextInt(TOTAL_QUESTION);
@@ -50,6 +50,12 @@ public class Console extends QuestionsAns{
             }
             else{
                 i++;
+                if(i==ERRORS){
+                    System.out.println("\nIncorrect Guesses: "+i+"/6");
+                }
+                for(int k=0;k<=i;k++){
+                    System.out.print(hangman.get(k));
+                }
             }
             if(countRight==limit){
                 System.out.println("Congratulations! You've guessed the phrase \"" +ans+"\" correctly!");
@@ -60,7 +66,5 @@ public class Console extends QuestionsAns{
         if(countRight!=limit){
             System.out.println("Game over! Right phrase is \"" +ans +"\".");
         }
-
-        //System.out.println(ans);
     }
 }
