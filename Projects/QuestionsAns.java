@@ -13,6 +13,10 @@ public class QuestionsAns {
         answer.add("Dhaka");
         questions.add("What is the capital of India?");
         answer.add("Delhi");
+        questions.add("Who is the best all rounder in cricket?");
+        answer.add("Shakib");
+        questions.add("Who is the best player in football?");
+        answer.add("Neymar");
         hangman.add("\n+- - - - - -+\n");
         hangman.add("      |   |\n");
         hangman.add("      O   |\n");
