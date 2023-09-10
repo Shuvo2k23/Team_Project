@@ -11,7 +11,7 @@ public class QuestionsAns {
         answer.add("Paris");
         questions.add("What is the capital of Bangladesh?");
         answer.add("Dhaka");
-        questions.add("What is the capital of India?");
+        questions.add("What is the capital of India ?");
         answer.add("Delhi");
         questions.add("Who is the best all rounder of cricket?");
         answer.add("Shakib");
@@ -31,6 +31,24 @@ public class QuestionsAns {
         answer.add("Rajshahi");
         questions.add("When Rajshahi University was established?");
         answer.add("1953");
+        questions.add("Who wrote \"Romeo and Juliet\"?");
+        answer.add("Shakespeare");
+        questions.add("What is the chemical symbol for gold?");
+        answer.add("Au");
+        questions.add("What is the largest planet in our solar system?");
+        answer.add(" Jupiter");
+        questions.add("Who painted the Mona Lisa?");
+        answer.add("da Vinci");
+        questions.add("What is the primary gas in Earth's atmosphere? ");
+        answer.add("Oxygen");
+        questions.add("What is the opposite of \"dark\"?");
+        answer.add("Light");
+        questions.add("What is the square root of 25?");
+        answer.add("Five");
+        questions.add("Which continent is home to the Sahara Desert?");
+        answer.add("Africa");
+        questions.add("What is the process by which plants make their own food?");
+        answer.add("Photosynthesis");
 
 
 
