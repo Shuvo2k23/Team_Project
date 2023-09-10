@@ -17,6 +17,8 @@ public class QuestionsAns {
         answer.add("Shakib");
         questions.add("Who is the best player in football?");
         answer.add("Neymar");
+        questions.add("Which team won the FIFA World Cup five times?");
+        answer.add("Brazil");
         hangman.add("\n+- - - - - -+\n");
         hangman.add("      |   |\n");
         hangman.add("      O   |\n");
