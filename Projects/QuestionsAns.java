@@ -31,6 +31,8 @@ public class QuestionsAns {
         answer.add("Rajshahi");
         questions.add("When Rajshahi University was established?");
         answer.add("1953");
+        questions.add("When Dhaka University was established?");
+        answer.add("1921");
 
 
 
